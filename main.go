@@ -8,11 +8,13 @@ func main() {
 	// }
 
 	// Cards.print()
-	Cards := newDeck()
+	// Cards := newDeck()
 	// hand, remainingDeck := deal(Cards, 3)
 	// hand.print()
 	// remainingDeck.print()
 	// Cards := newNumList()
 	// Cards.print()
-	Cards.saveToHDD("myfile.txt")
+	// Cards.saveToHDD("myfile.txt")
+	Cards := newDeckFromFile("myfile.txt")
+	Cards.print()
 }
