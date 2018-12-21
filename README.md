@@ -1,4 +1,4 @@
-Go in Hello World 
+Learn Go
 
 1) To build and execute go program :- go run main.go
 2) To Build go program :- go build main.go
