@@ -5,4 +5,5 @@ Learn Go
     a) It will give you executable/binary file to execute written program.
 
 Type of package :- 
-    1) If package name mentioned as "main"
+    1) If package name mentioned as "main" it will create executable file 
+    2) except "main" it will be supported package to use in other code.
