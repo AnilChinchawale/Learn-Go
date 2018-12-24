@@ -23,9 +23,8 @@ func main() {
 			postalZip: 400067,
 		},
 	}
-	pointerAnil := &anil
-	fmt.Println(pointerAnil)
-	pointerAnil.updateData("Neel")
+
+	anil.updateData("Neel")
 	anil.print()
 }
 
