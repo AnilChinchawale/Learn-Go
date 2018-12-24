@@ -23,7 +23,9 @@ func main() {
 			postalZip: 400067,
 		},
 	}
-	anil.updateData("Neel")
+	pointerAnil := &anil
+	fmt.Println(pointerAnil)
+	pointerAnil.updateData("Neel")
 	anil.print()
 }
 
@@ -32,6 +34,7 @@ func (p person) print() {
 	fmt.Printf("%+v", p)
 }
 
-func (p person) updateData(firstName string) {
-	p.firstName = firstName
+func (pointerToPerson *person) updateData(firstName string) {
+	(*pointerToPerson).firstName = firstName
+	fmt.Println((*pointerToPerson))
 }
